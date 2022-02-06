@@ -16,26 +16,38 @@ MonoBehaviour:
   width: 1920
   height: 1080
   numAgents: 25000
-  spawnMode: 2
+  spawnMode: 0
   trailWeight: 12
   decayRate: 0.5
   diffuseRate: 3
   speciesSettings:
-  - moveSpeed: 70
-    turnSpeed: 30
+  - moveSpeed: 50
+    turnSpeed: 50
     sensorAngleSpacing: 60
     sensorOffsetDst: 20
     sensorSize: 1
-    colour: {r: 0.53608304, g: 0.062745094, b: 1, a: 0}
-  - moveSpeed: 50
-    turnSpeed: -90
-    sensorAngleSpacing: 112
-    sensorOffsetDst: 30
-    sensorSize: 1
-    colour: {r: 0.10588236, g: 0.6240185, b: 0.83137256, a: 0}
+    colour: {r: 0.58521414, g: 0, b: 1, a: 0}
   - moveSpeed: 50
     turnSpeed: 50
-    sensorAngleSpacing: 70
-    sensorOffsetDst: 30
+    sensorAngleSpacing: 60
+    sensorOffsetDst: 20
     sensorSize: 1
-    colour: {r: 0.47160125, g: 0.8301887, b: 0.105731584, a: 0}
+    colour: {r: 0.062745094, g: 0.8078847, b: 1, a: 0}
+  - moveSpeed: 50
+    turnSpeed: 50
+    sensorAngleSpacing: 60
+    sensorOffsetDst: 20
+    sensorSize: 1
+    colour: {r: 0.98476857, g: 1, b: 0.062745094, a: 0}
+  - moveSpeed: 100
+    turnSpeed: 50
+    sensorAngleSpacing: 70
+    sensorOffsetDst: 0
+    sensorSize: 1
+    colour: {r: 1, g: 0.4797133, b: 0.062745094, a: 0}
+  - moveSpeed: 100
+    turnSpeed: 50
+    sensorAngleSpacing: 70
+    sensorOffsetDst: 10
+    sensorSize: 1
+    colour: {r: 1, g: 0.062745094, b: 0.0787966, a: 0}
